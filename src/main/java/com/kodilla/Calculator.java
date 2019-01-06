@@ -14,4 +14,9 @@ public class Calculator {
         return  a + b;
 
     }
+
+    public double subNumbers(){
+        return  a - b;
+
+    }
 }
