@@ -17,16 +17,17 @@ public class KodillaCourseApplication {
         Scanner takeA = new Scanner(System.in);
         Scanner takeB = new Scanner(System.in);
 
-        double a = 0.0;
-        double b = 0.0;
+        double a ;
+        double b ;
+        double score ;
 
         System.out.println("Podaj liczbę A: ");
         a = takeA.nextDouble();
         System.out.println("Podaj liczbę B: ");
-        b = takeA.nextDouble();
-        Calculator add = new Calculator(a,b);
+        b = takeB.nextDouble();
+        score = Calculator.addNumbers( a , b );
 
-        System.out.println("Wynik dodawania: " + a + " + " + b + " = " + add.addNumbers());
+        System.out.println("Wynik dodawania: " + a + " + " + b + " = " + score);
 
 
     }
